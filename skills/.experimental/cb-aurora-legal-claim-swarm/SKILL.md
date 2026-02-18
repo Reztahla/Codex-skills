@@ -60,6 +60,12 @@ Split work into parallel specialist tracks and merge only after source checks pa
 - Drafting Agent: generate venue-specific draft language from verified facts only.
 - QA Agent: run contradiction checks, date consistency checks, and privacy redaction review.
 
+## Citation Standard
+
+- For each cited fact, include a stable locator when possible (file name + page/section/email date).
+- If multiple records support the same fact, cite the strongest primary source first, then optional corroboration.
+- If a source cannot be opened/read, mark it `Unverified Source` and do not rely on it for high-confidence claims.
+
 ## Codex macOS Execution Mode
 
 - Keep outputs deterministic and skimmable: prefer short bullets and compact tables over long prose.
