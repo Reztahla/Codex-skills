@@ -40,6 +40,7 @@ Pause drafting and request urgent licensed review if any of the following appear
 ## Required Workflow
 
 1. Confirm scope and deadlines: identify whether the request concerns constructive dismissal, WSIB, Canada Life disability, HRTO, or a combined strategy; capture all known limitation-period triggers.
+   - If forum fit is uncertain, provide a `Forum Fit Unclear` note and list what facts are needed for licensed review.
 2. Build a shared chronology: collect events (leave request, employer response, accommodations, benefit denials, return-to-work attempts) in date order with source citations.
 3. Map evidence: assign each event to source files (emails, medical notes, policy excerpts, denial letters, witness statements) and note missing exhibits.
 4. Run a claim-gap check: flag missing records, unclear causation periods, inconsistent dates, and limitation-period risks for legal review.
