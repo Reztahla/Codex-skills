@@ -79,6 +79,17 @@ Return sections in this order:
 4. Venue Draft Blocks (WSIB / Canada Life / HRTO / constructive dismissal as applicable)
 5. Risk Log + Counsel Questions (highest-risk first)
 
+Formatting rules:
+
+- Use `YYYY-MM-DD` when a full date is known; otherwise label date precision (e.g., `2025-03 (month-only)`).
+- Use confidence tags for factual rows: `High` (documented), `Medium` (single-source), `Low` (unverified statement).
+
+## Final QA Gate (run before handoff)
+
+- No uncited material facts in chronology or draft blocks.
+- No direct legal-advice phrasing; all conclusions framed as draft support for licensed review.
+- No unresolved conflicts left without a `Conflict` note and follow-up request.
+
 ## Standard Deliverables
 
 For each matter, return:
