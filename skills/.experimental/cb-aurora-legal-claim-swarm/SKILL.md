@@ -66,6 +66,7 @@ Split work into parallel specialist tracks and merge only after source checks pa
 - For each cited fact, include a stable locator when possible (file name + page/section/email date).
 - If multiple records support the same fact, cite the strongest primary source first, then optional corroboration.
 - If a source cannot be opened/read, mark it `Unverified Source` and do not rely on it for high-confidence claims.
+- If duplicate or revised documents conflict, cite the latest finalized version and list superseded versions in notes.
 
 ## Codex macOS Execution Mode
 
