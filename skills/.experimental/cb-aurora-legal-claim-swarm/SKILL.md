@@ -104,7 +104,7 @@ Formatting rules:
 - No uncited material facts in chronology or draft blocks.
 - No direct legal-advice phrasing; all conclusions framed as draft support for licensed review.
 - No unresolved conflicts left without a `Conflict` note and follow-up request.
-- Handoff includes a priority tag on each open item: `Urgent`, `Next`, or `Monitor`.
+- Handoff includes a priority tag on each open item: `Urgent` (deadline/safety risk), `Next` (needed for near-term drafting), or `Monitor` (track until additional evidence arrives).
 
 ## Standard Deliverables
 
