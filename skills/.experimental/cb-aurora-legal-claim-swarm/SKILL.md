@@ -27,6 +27,15 @@ Before drafting, confirm:
 - Always preserve privacy: redact personal health identifiers unless required for a requested filing draft.
 - Cite the source document for every material fact included in a chronology or submission draft.
 - If material facts are missing, state `Unknown` and list exactly what evidence is required to proceed.
+- Do not infer a forum-specific legal deadline as final; present it as a candidate date pending licensed legal confirmation.
+
+## Escalate Immediately
+
+Pause drafting and request urgent licensed review if any of the following appear:
+
+- Imminent deadline uncertainty (e.g., filing window may expire within days).
+- Threats of self-harm, coercion, retaliation, or immediate safety risk.
+- Requests to hide, alter, or destroy records.
 
 ## Required Workflow
 
