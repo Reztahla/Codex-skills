@@ -11,20 +11,30 @@ metadata:
 
 Use this skill to structure claim-preparation work for Ontario employer/employee disputes tied to medical leave, constructive dismissal, disability benefits, and human rights applications. Focus on evidence organization, timeline building, draft generation, and submission readiness for employee-side files.
 
+## Intake Prerequisites
+
+Before drafting, confirm:
+
+- Jurisdiction is Ontario, Canada (or clearly mark assumptions for legal review).
+- The worker is requesting employee-side support (not employer-side strategy).
+- Any known filing deadlines, denial dates, or hearing dates.
+- Which forum(s) are in scope: WSIB, Canada Life appeal, HRTO, civil constructive dismissal, or combined.
+
 ## Non-Negotiable Guardrails
 
 - Do not present output as legal advice; frame all output as draft support for licensed counsel/paralegal review.
 - Do not fabricate facts, dates, medical details, or employer communications.
 - Always preserve privacy: redact personal health identifiers unless required for a requested filing draft.
 - Cite the source document for every material fact included in a chronology or submission draft.
+- If material facts are missing, state `Unknown` and list exactly what evidence is required to proceed.
 
 ## Required Workflow
 
-1. Confirm scope: identify whether the request concerns constructive dismissal, WSIB, Canada Life disability, HRTO, or a combined strategy.
-2. Build a shared chronology: collect events (leave request, employer response, accommodations, benefit denials, return-to-work attempts) in date order.
-3. Map evidence: assign each event to source files (emails, medical notes, policy excerpts, denial letters, witness statements).
-4. Run a claim-gap check: flag missing records, unclear causation periods, and limitation-period risks for legal review.
-5. Draft outputs by venue:
+1. Confirm scope and deadlines: identify whether the request concerns constructive dismissal, WSIB, Canada Life disability, HRTO, or a combined strategy; capture all known limitation-period triggers.
+2. Build a shared chronology: collect events (leave request, employer response, accommodations, benefit denials, return-to-work attempts) in date order with source citations.
+3. Map evidence: assign each event to source files (emails, medical notes, policy excerpts, denial letters, witness statements) and note missing exhibits.
+4. Run a claim-gap check: flag missing records, unclear causation periods, inconsistent dates, and limitation-period risks for legal review.
+5. Draft outputs by venue using only verified facts:
    - WSIB package notes (injury/illness timeline, work impact, medical corroboration)
    - Canada Life appeal support draft (functional limitations, treating-provider evidence, denial-response matrix)
    - HRTO application draft support (protected ground, adverse treatment, remedy framing)
