@@ -40,7 +40,7 @@ Pause drafting and request urgent licensed review if any of the following appear
 ## Required Workflow
 
 1. Confirm scope and deadlines: identify whether the request concerns constructive dismissal, WSIB, Canada Life disability, HRTO, or a combined strategy; capture all known limitation-period triggers.
-   - If forum fit is uncertain, provide a `Forum Fit Unclear` note and list what facts are needed for licensed review.
+   - If forum fit is uncertain, provide a `Forum-Fit Uncertain` note and list what facts are needed for licensed review.
 2. Build a shared chronology: collect events (leave request, employer response, accommodations, benefit denials, return-to-work attempts) in date order with source citations.
 3. Map evidence: assign each event to source files (emails, medical notes, policy excerpts, denial letters, witness statements) and note missing exhibits.
 4. Run a claim-gap check: flag missing records, unclear causation periods, inconsistent dates, and limitation-period risks for legal review.
@@ -71,7 +71,7 @@ Split work into parallel specialist tracks and merge only after source checks pa
 ## Codex macOS Execution Mode
 
 - Keep outputs deterministic and skimmable: prefer short bullets and compact tables over long prose.
-- Start with a one-screen executive snapshot (top risks, next deadline candidate, and key missing evidence).
+- Start with an executive snapshot capped at ~200 words (top risks, next deadline candidate, and key missing evidence).
 - When data conflicts, present a `Conflict` note with both sources instead of choosing one.
 - When information is missing, ask targeted follow-up questions in one batch to reduce user back-and-forth.
 - If user requests legal conclusions, provide a draft-analysis frame and route final legal determinations to counsel/paralegal review.
