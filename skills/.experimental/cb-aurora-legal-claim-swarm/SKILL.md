@@ -57,6 +57,8 @@ Use connected workspace plugins in this order when available:
 
 If any plugin is unavailable, continue with manual extraction and explicitly list what could not be validated automatically.
 
+Before using form-filling plugins, confirm that placeholder text remains in any uncertain fields and do not insert guessed medical or legal facts.
+
 ## Standard Deliverables
 
 For each matter, return:
@@ -66,3 +68,5 @@ For each matter, return:
 - Chronology: dated events with source references.
 - Draft pack: forum-specific draft language and checklist.
 - Risk log: limitation concerns, proof weaknesses, and counsel questions.
+
+Use this section order in the final response: `Scope`, `Chronology`, `Evidence Matrix`, `Draft Pack`, `Risk Log`, `Open Questions`.
