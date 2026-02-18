@@ -71,6 +71,7 @@ Split work into parallel specialist tracks and merge only after source checks pa
 ## Codex macOS Execution Mode
 
 - Keep outputs deterministic and skimmable: prefer short bullets and compact tables over long prose.
+- Start with a one-screen executive snapshot (top risks, next deadline candidate, and key missing evidence).
 - When data conflicts, present a `Conflict` note with both sources instead of choosing one.
 - When information is missing, ask targeted follow-up questions in one batch to reduce user back-and-forth.
 - If user requests legal conclusions, provide a draft-analysis frame and route final legal determinations to counsel/paralegal review.
