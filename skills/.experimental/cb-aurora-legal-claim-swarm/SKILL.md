@@ -51,6 +51,13 @@ Split work into parallel specialist tracks and merge only after source checks pa
 - Drafting Agent: generate venue-specific draft language from verified facts only.
 - QA Agent: run contradiction checks, date consistency checks, and privacy redaction review.
 
+## Codex macOS Execution Mode
+
+- Keep outputs deterministic and skimmable: prefer short bullets and compact tables over long prose.
+- When data conflicts, present a `Conflict` note with both sources instead of choosing one.
+- When information is missing, ask targeted follow-up questions in one batch to reduce user back-and-forth.
+- If user requests legal conclusions, provide a draft-analysis frame and route final legal determinations to counsel/paralegal review.
+
 ## Plugin and Tool Coordination
 
 Use connected workspace plugins in this order when available:
@@ -61,6 +68,16 @@ Use connected workspace plugins in this order when available:
 4. Form-filling plugins for HRTO/benefit form draft population.
 
 If any plugin is unavailable, continue with manual extraction and explicitly list what could not be validated automatically.
+
+## Output Contract
+
+Return sections in this order:
+
+1. Scope + Deadlines (forum, limitation triggers, assumptions)
+2. Chronology (date | event | source | confidence)
+3. Evidence Matrix (required element | supporting source | gap)
+4. Venue Draft Blocks (WSIB / Canada Life / HRTO / constructive dismissal as applicable)
+5. Risk Log + Counsel Questions (highest-risk first)
 
 ## Standard Deliverables
 
