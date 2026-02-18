@@ -19,6 +19,7 @@ Use this skill to structure claim-preparation work for Ontario employer/employee
 - Do not fabricate facts, dates, medical details, or employer communications.
 - Always preserve privacy: redact personal health identifiers unless required for a requested filing draft.
 - Cite the source document for every material fact included in a chronology or submission draft.
+- If a fact cannot be sourced, mark it as `[UNVERIFIED]` and move it to an open-questions list instead of drafting it as true.
 
 ## Required Workflow
 
@@ -27,12 +28,13 @@ Use this skill to structure claim-preparation work for Ontario employer/employee
 3. Build a shared chronology: collect events (leave request, employer response, accommodations, benefit denials, return-to-work attempts) in date order.
 4. Map evidence: assign each event to source files (emails, medical notes, policy excerpts, denial letters, witness statements).
 5. Run a claim-gap check: flag missing records, unclear causation periods, limitation-period risks, and contradictions for legal review.
-6. Draft outputs by venue:
+6. Run a draft-readiness gate: only draft venue language after each key claim has at least one cited source or an explicit `[UNVERIFIED]` flag.
+7. Draft outputs by venue:
    - WSIB package notes (injury/illness timeline, work impact, medical corroboration)
    - Canada Life appeal support draft (functional limitations, treating-provider evidence, denial-response matrix)
    - HRTO application draft support (protected ground, adverse treatment, remedy framing)
    - Constructive dismissal brief draft (fundamental change, poisoned environment, resignation nexus)
-7. Produce a final handoff bundle with open questions, unresolved risks, and a filing-priority order.
+8. Produce a final handoff bundle with open questions, unresolved risks, and a filing-priority order.
 
 ## Agent Swarm Pattern
 
@@ -42,7 +44,7 @@ Split work into parallel specialist tracks and merge only after source checks pa
 - Timeline Agent: maintain master chronology with source citations.
 - Evidence Agent: index exhibits, deduplicate files, and track missing proof.
 - Drafting Agent: generate venue-specific draft language from verified facts only.
-- QA Agent: run contradiction checks, date consistency checks, and privacy redaction review.
+- QA Agent: run contradiction checks, date consistency checks, privacy redaction review, and `[UNVERIFIED]` label checks.
 
 ## Plugin and Tool Coordination
 
